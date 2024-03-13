@@ -1187,15 +1187,15 @@ header {
 		text-transform: uppercase;
 		text-align: left !important;
 		align-self: center;
-		font-size: 4.75vw;
+		font-size: 6vw;
 		margin-top: 6%;
 
 	}
 
 	.profile-img{
 
-		width: 160px;
-		height: 160px;
+		width: 25vw;
+		height: 25vw;
 		border-radius: 250px;
 		border: solid 3px #fff;
 		object-fit: cover;
@@ -1212,10 +1212,11 @@ header {
 
 		span {
 
-			font: 700 1.85em/1 "SF Pro Display", sans-serif;
+			font: 700 5vw "SF Pro Display", sans-serif;
 			letter-spacing: 0;
 			display: block;
 			margin: 0 auto;
+
 			
 
 	/* Clip Background Image */
