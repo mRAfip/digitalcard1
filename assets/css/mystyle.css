@@ -90,10 +90,6 @@ header {
 		z-index:100;
 	}
 
-	.my-float{
-		margin-top:16px;
-	}
-
 
 
   
@@ -236,14 +232,6 @@ header {
 		color: #000;
 	}
 
-	.icon-color-phone{
-
-		color: #2583ff
-	}
-	.icon-color-mail{
-
-		color: #ff2a2a
-	}
 
 	.icon-color-whatsapp{
 		
@@ -253,7 +241,10 @@ header {
 	.profile-line{
 
 		margin-top: 4%;
+		margin-bottom: 2%;
 	}
+
+	
 
 	/* end user job section  */
 
@@ -261,12 +252,15 @@ header {
 	/* start contact option text */
 	
 
+	
 	.hero-contact{
 
 		width: 100%;
 		border: solid 1px #2c2c2c;
 		border-radius: 15px;
 	}
+
+
 
 	.contact-option-main-div{
 
@@ -1300,9 +1294,20 @@ header {
 		color: #2aff7c
 	}
 
+	.div-line{
+		width: 100%;
+		height: 1px;
+		background-color: #272727;
+	}
+
 	.profile-line{
 
-		margin-top: 4%;
+		margin-top: 13%;
+		margin-bottom: 8%;
+	}
+	.connect-head{
+
+		text-align: center;
 	}
 
 	/* end user job section  */
@@ -1321,7 +1326,7 @@ header {
 	.contact-option-main-div{
 
 		display: flex;
-		padding-top: 4%;
+		padding-top: 8%;
 		gap:15px ;
 		flex-direction: column;
 
