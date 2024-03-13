@@ -60,31 +60,62 @@ header {
 	.hero_top{
 
 	
-		padding-top: 8%;
+		padding: 8% 13%;
 		display: flex;
-		justify-content: center;
-		gap: 120px;
+		gap: 20px;
+
+	}
+	.hero-profile{
+
+		border: solid 2px #2c2c2c;
+		border-radius: 15px;
+		width: 100%;
 
 	}
 
-	.profile-details{
+	.hero-profile-head{
 
-		padding-top: 10%;
+		background-image: url('../img/bg.jpg');
+		display: flex;
+		justify-content: space-between;
+		align-self: flex-end;
+		border-radius: 14px 14px 0 0 ;
+		background-size: cover;
+  		background-position: center;
+		padding: 3% 4%;
+		
+	}
+
+
+	.profile-body{
+
+
+		text-align: left;
+		padding: 3% 4%;
+
 	}
 
 	.user_name{
 
 		font-family: 'SF Pro Display', sans-serif !important;
-		font-weight: 800 !important;
+		font-weight: 700 !important;
 		text-transform: uppercase;
+		text-align: left !important;
+		align-self: center;
+		font-size: 2vw;
+		margin-top: 3%;
 
 	}
 
 	.profile-img{
 
-		width: 450px;
-		height: auto;
-		border-radius: 20px;
+		width: 160px;
+		height: 160px;
+		border-radius: 250px;
+		border: solid 3px #fff;
+		object-fit: cover;
+
+	
 	}
 
 
@@ -92,13 +123,11 @@ header {
 
 	.user-job-title{
 
-		text-transform: uppercase;
-		letter-spacing: .5em;
 		display: inline-block;
 
 		span {
 
-			font: 700 2em/1 "Oswald", sans-serif;
+			font: 700 1.85em/1 "SF Pro Display", sans-serif;
 			letter-spacing: 0;
 			display: block;
 			margin: 0 auto;
@@ -132,26 +161,36 @@ header {
 		100% { background-position: 100% 50%; }
 	}
 
-	/* end user job section  */
 
+	.btn-main-div{
 
-	/* start contact option text */
-	
-
-
-	.contact-option-main-div{
 		display: flex;
+
 	}
 
-	.contact-options{
+	.btn-div{
 
 		display: flex;
-		gap: 20px;
-		padding: 2% 3%;
-		border: solid 1px #0e0e0e;
-		100%
+		gap: 15px;
+	}
 
+	.btn-save{
+
+		width: fit-content;
+		border: solid 1px #303030;
+		padding: 1.5% 2%;
+		display: flex;
+		border-radius: 85px;
+		gap: 15px;
+		justify-content: center; /* Center content horizontally */
+		align-items: center; /* Center content vertically */
 		
+	}
+
+	.solid-btn{
+
+		background-color: #fff;
+		color: #000;
 	}
 
 	.icon-color-phone{
@@ -168,6 +207,80 @@ header {
 		color: #2aff7c
 	}
 
+	.profile-line{
+
+		margin-top: 4%;
+	}
+
+	/* end user job section  */
+
+
+	/* start contact option text */
+	
+
+	.hero-contact{
+
+		width: 100%;
+		border: solid 1px #2c2c2c;
+		border-radius: 15px;
+	}
+
+	.contact-option-main-div{
+
+		display: flex;
+		padding-top: 4%;
+		gap:15px;
+		width: 80%;
+
+	}
+	.contact-option-main-item{
+		display: flex;
+		gap: 15px;
+		width: 100%;
+	}
+	.contact-icon-div{
+		display: flex;
+		height: fit-content;
+		width: auto;
+		border: #131313 solid 1px;
+		border-radius: 10px;
+		padding: 1% 1%;
+		width: 100%;
+		
+	}
+
+	.contact-icon{
+
+		height: auto;
+	
+		display: flex; /* Enable flexbox */
+		justify-content: center; /* Center content horizontally */
+		align-items: center; /* Center content vertically */
+	}
+
+	.contact-text{
+
+		width: fit-content;
+		align-self: center;
+		padding: 0 5%;
+	}
+
+	.contact-icon-img{
+
+		width: 45px;
+		height: auto;
+		margin-left: 5%;
+
+	}
+
+	.icon-title{
+
+		margin-left: 5px;
+	}
+
+
+
+	
 
 	/* end contact option text */
 
@@ -182,7 +295,7 @@ header {
 	.div-line{
 		width: 100%;
 		height: 1px;
-		background-color: #fff;
+		background-color: #272727;
 	}
 
 
@@ -994,45 +1107,63 @@ header {
 	
 	.hero_top{
 
+	
+		padding: 5% 5%;
 		display: flex;
-		flex-direction: column-reverse;
-		justify-content: center;
-		background-image: url(../img/team/img1.jpg);
-		background-size: cover;
- 		background-position: center; /* Optional: Center the image */
-		height: 75vh;
+		gap: 20px;
+
+	}
+	.hero-profile{
+
+		border: solid 2px #2c2c2c;
+		border-radius: 15px;
+		width: 100%;
+
 	}
 
-	.profile-details{
+	.hero-profile-head{
 
-		padding: 5% 2%;
-		text-align: center;
-		background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-
+		background-image: url('../img/bg.jpg');
+		display: flex;
+		justify-content: space-between;
+		align-self: flex-end;
+		border-radius: 14px 14px 0 0 ;
+		background-size: cover;
+  		background-position: center;
+		padding: 3% 4%;
 		
+	}
+
+
+	.profile-body{
+
+
+		text-align: left;
+		padding: 3% 4%;
+
 	}
 
 	.user_name{
 
 		font-family: 'SF Pro Display', sans-serif !important;
-		font-weight: 800 !important;
+		font-weight: 700 !important;
 		text-transform: uppercase;
-		font-size: 7vw;
-
-	}
-
-	.profile-image{
-
-		justify-content: center;
+		text-align: left !important;
 		align-self: center;
+		font-size: 4.75vw;
+		margin-top: 6%;
+
 	}
 
 	.profile-img{
 
-		width: 100%;
-		height: auto;
-		margin-top: -40%;
-		visibility: hidden;
+		width: 160px;
+		height: 160px;
+		border-radius: 250px;
+		border: solid 3px #fff;
+		object-fit: cover;
+
+	
 	}
 
 
@@ -1040,13 +1171,11 @@ header {
 
 	.user-job-title{
 
-		text-transform: uppercase;
-		letter-spacing: .5em;
 		display: inline-block;
 
 		span {
 
-			font: 700 2em/1 "SF Pro Display", sans-serif;
+			font: 700 1.85em/1 "SF Pro Display", sans-serif;
 			letter-spacing: 0;
 			display: block;
 			margin: 0 auto;
@@ -1080,22 +1209,38 @@ header {
 		100% { background-position: 100% 50%; }
 	}
 
-	/* end user job section  */
 
-
-	/* start contact option text */
-	
-	.contact-option-main-div{
+	.btn-main-div{
 
 		display: flex;
+
 	}
 
-	.contact-options{
+	.btn-div{
 
 		display: flex;
-		gap: 20px;
-		justify-content: center;
-	
+		gap: 15px;
+		flex-direction: column;
+	}
+
+	.btn-save{
+
+		width: fit-content;
+		border: solid 1px #303030;
+		padding: 4% 2%;
+		display: flex;
+		border-radius: 85px;
+		gap: 15px;
+		justify-content: center; /* Center content horizontally */
+		align-items: center; /* Center content vertically */
+		width: 100%;
+		
+	}
+
+	.solid-btn{
+
+		background-color: #fff;
+		color: #000;
 	}
 
 	.icon-color-phone{
@@ -1112,16 +1257,79 @@ header {
 		color: #2aff7c
 	}
 
+	.profile-line{
 
-	/* end contact option text */
+		margin-top: 4%;
+	}
+
+	/* end user job section  */
 
 
-
-/* extra added section  */
-
-
+	/* start contact option text */
 	
-  /* marque */
+
+	.hero-contact{
+
+		width: 100%;
+		border: solid 1px #2c2c2c;
+		border-radius: 15px;
+	}
+
+	.contact-option-main-div{
+
+		display: flex;
+		padding-top: 4%;
+		gap:15px ;
+		flex-direction: column;
+
+	}
+
+	.contact-option-main-item{
+		display: flex;
+		gap: 15px;
+	
+	}
+	.contact-icon-div{
+		display: flex;
+		height: fit-content;
+		width: auto;
+		border: #131313 solid 1px;
+		border-radius: 10px;
+		padding: 1% 1%;
+		width: 100%;
+		
+	}
+
+	.contact-icon{
+
+		height: auto;
+	
+		display: flex; /* Enable flexbox */
+		justify-content: center; /* Center content horizontally */
+		align-items: center; /* Center content vertically */
+	}
+
+	.contact-text{
+
+		width: fit-content;
+		align-self: center;
+		padding: 0 5%;
+	}
+
+	.contact-icon-img{
+
+		width: 45px;
+		height: auto;
+		margin-left: 5%;
+
+	}
+
+	.icon-title{
+
+		margin-left: 5px;
+	}
+
+
 
  
 
