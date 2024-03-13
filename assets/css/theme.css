@@ -769,14 +769,24 @@ body.is-firefox .tt-heading.tt-heading-stroke .tt-heading-title {
 
 #tt-header {
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
+	top: 10px;
+	left: 1%;
+	width: 97%;
 	color: #fff;
 	z-index: 999;
 	pointer-events: none;
-	background-color: transparent;
+	background: rgba(255, 255, 255, 0.07);
+	border-radius: 85px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(2.1px);
+	-webkit-backdrop-filter: blur(2.1px);
 }
+
+
+
+
+
+
 
 /* Animated class for header color change */
 .active-header {
@@ -799,14 +809,15 @@ body.is-firefox .tt-heading.tt-heading-stroke .tt-heading-title {
 }
 @media (max-width: 1024px) {
 	.tt-header-inner {
-		padding-top: 20px;
+		padding: 10px 0px;
+		
 	}
 }
 
 body:not(.tt-boxed) .tt-header-inner,
 .tt-header-inner:not(.tt-wrap) {
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 6%;
+	padding-right: 5%;
 }
 
 /* header columns */

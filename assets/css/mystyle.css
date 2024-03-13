@@ -138,10 +138,18 @@ header {
 	/* start contact option text */
 	
 
+
+	.contact-option-main-div{
+		display: flex;
+	}
+
 	.contact-options{
 
 		display: flex;
 		gap: 20px;
+		padding: 2% 3%;
+		border: solid 1px #0e0e0e;
+		100%
 
 		
 	}
@@ -179,86 +187,6 @@ header {
 
 
 	
-  /* marque */
-
-  .marque_header{
-
-	width: 100%;
-	text-align: center;
-	margin-top: 2%;
-	opacity: 0.5;
-  }
-
-
-  .logoMarqueeSection {
-	padding: 1% 0%;
-	
-  }
-  
-  #logoMarqueeSection {
-	max-width: 1920px!important;
-	margin: 0 auto;
-  }
-  
-  .default-content-container {
-	  margin-left: auto;
-	  margin-right: auto;
-	  margin-top: 0;
-	  margin-bottom: 0;
-	  /* padding-left: 5rem;
-	  padding-right: 5rem; */
-	  padding-top: 4.5rem;
-	  padding-bottom: 4.5rem;
-	  width: 100%;
-	  min-height: 100vh;
-  }
-  
-  div.marquee>a>img {
-	height: 120px;
-  }
-  
-  .logoMarqueeSection>div>div {
-	  padding-top: 0;
-	  padding-bottom: 0;
-	  min-height: 0;
-  }
-  
-  .marquee-wrapper {
-	display:  inline-block;
-	white-space: nowrap;
-  }
-  
-  .marquee {
-	  display:  inline-block;
-	  white-space: nowrap;
-	  position: relative;
-	  transform: translate3d(0%, 0, 0);
-	  animation-name: marquee;
-	  animation-timing-function: linear;
-	  animation-iteration-count: infinite;
-  }
-  
-  .marquee a {
-	  display:  inline-block;
-	  white-space: nowrap;
-	  padding-right: 5.4rem;
-  }
-  
-  .marquee-wrapper:hover .marquee {
-	  animation-play-state: paused !important;
-  }
-  
-  @keyframes marquee {
-	  0% {
-		  transform: translate3d(0%, 0, 0);
-	  }
-  
-	  100% {
-		  transform: translate3d(-100%, 0, 0);
-	  }
-  }
-
-
 
   /* starting about and service section */
 
@@ -326,55 +254,6 @@ header {
 	border-radius: 7px;
   }
 
-
-
-
-
-
-  /* newly added horizontal scrool work */
-
-  /* Scrolling text styles 
-========================= */
-/* Style stroke */
-.tt-scrolling-image.scr-text-stroke .tt-scrolling-image-inner {
-
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: #CCC;
-	-webkit-text-fill-color: transparent;
-}
-
-.scroll-freelazer{
-
-	display: flex;
-}
-
-.frrelancer-img-div{
-  
-  width: 55rem;
-  height: 55rem;
-  margin-left: 0.5%;
-  border-radius: 20px;
-
-  
-}
-
-.freelancer-img{
-
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-.card-body {
-	padding: 10px;
-	background-color: transparent;
-	color: white;
-  }
-
-
-
-  /* contact portion */
 
   .contact-inner-section{
 
@@ -805,47 +684,6 @@ header {
   }
 
 
-    /* newly added horizontal scrool work */
-
-  /* Scrolling text styles 
-========================= */
-/* Style stroke */
-.tt-scrolling-image.scr-text-stroke .tt-scrolling-image-inner {
-
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: #CCC;
-	-webkit-text-fill-color: transparent;
-}
-
-.scroll-freelazer{
-
-	display: flex;
-}
-
-.frrelancer-img-div{
-  
-  width: 35rem;
-  height: 35rem;
-  margin-left: 0.5%;
-  border-radius: 20px;
-
-  
-}
-
-.freelancer-img{
-
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-.card-body {
-	padding: 10px;
-	background-color: transparent;
-	color: white;
-  }
-
 
 
 }
@@ -1072,155 +910,10 @@ header {
 
 
 	
-/* extra added section  */
 
-
-.testimonial_section{
-
-	padding: 2% 3.5%;
-	color: #fff;
-	background-color: #000;
-
-	
-}
-
-.testimonial_head_div{
-	padding-left: 20%;
-	padding-right: 20%;
-
-}
-
-.testimonial_head{
-
-
-	font-size: calc(5px + 4vw);
-	font-family: 'SF Pro Display', sans-serif !important;
-	text-align: center;
-	margin-top: 10%;
-	
-}
-
-
-.testimonial_grid {
-	width: 1400px;
-	margin: 20px auto;
-	columns: 4;
-	column-gap: 20px;
-  }
-  
-  .testimonial_grid .box {
-	width: 100%;
-	
-	margin-bottom: 10px;
-	break-inside: avoid;
-  }
-  
-  .video_box {
-	max-width: 100%;
-	height: 350px;
-	border-radius: 15px;
-	object-fit: cover;
-  }
-  
-  @media (max-width: 1200px) {
-	.testimonial_grid {
-	  width: calc(100% - 40px);
-	  columns: 3;
-	}
-  }
-  
-  @media (max-width: 768px) {
-	.testimonial_grid {
-	  columns: 2;
-	}
-  }
-  
-  @media (max-width: 480px) {
-	.testimonial_grid {
-	  columns: 1;
-	}
-  }
   
 	
-  /* marque */
-
-  .marque_header{
-
-	width: 100%;
-	text-align: center;
-	margin-top: 2%;
-	opacity: 0.5;
-  }
-
-
-  .logoMarqueeSection {
-	padding: 1% 0%;
-	
-  }
   
-  #logoMarqueeSection {
-	max-width: 1920px!important;
-	margin: 0 auto;
-  }
-  
-  .default-content-container {
-	  margin-left: auto;
-	  margin-right: auto;
-	  margin-top: 0;
-	  margin-bottom: 0;
-	  /* padding-left: 5rem;
-	  padding-right: 5rem; */
-	  padding-top: 4.5rem;
-	  padding-bottom: 4.5rem;
-	  width: 100%;
-	  min-height: 100vh;
-  }
-  
-  div.marquee>a>img {
-	height: 120px;
-  }
-  
-  .logoMarqueeSection>div>div {
-	  padding-top: 0;
-	  padding-bottom: 0;
-	  min-height: 0;
-  }
-  
-  .marquee-wrapper {
-	display:  inline-block;
-	white-space: nowrap;
-  }
-  
-  .marquee {
-	  display:  inline-block;
-	  white-space: nowrap;
-	  position: relative;
-	  transform: translate3d(0%, 0, 0);
-	  animation-name: marquee;
-	  animation-timing-function: linear;
-	  animation-iteration-count: infinite;
-  }
-  
-  .marquee a {
-	  display:  inline-block;
-	  white-space: nowrap;
-	  padding-right: 5.4rem;
-  }
-  
-  .marquee-wrapper:hover .marquee {
-	  animation-play-state: paused !important;
-  }
-  
-  @keyframes marquee {
-	  0% {
-		  transform: translate3d(0%, 0, 0);
-	  }
-  
-	  100% {
-		  transform: translate3d(-100%, 0, 0);
-	  }
-  }
-
 
 
 
@@ -1272,64 +965,41 @@ header {
 
 
 
-    /* newly added horizontal scrool work */
-
-  /* Scrolling text styles 
-========================= */
-/* Style stroke */
-.tt-scrolling-image.scr-text-stroke .tt-scrolling-image-inner {
-
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: #CCC;
-	-webkit-text-fill-color: transparent;
-}
-
-.scroll-freelazer{
-
-	display: flex;
-}
-
-.frrelancer-img-div{
-  
-  width: 35rem;
-  height: 35rem;
-  margin-left: 0.5%;
-  border-radius: 20px;
-
-  
-}
-
-.freelancer-img{
-
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-.card-body {
-	padding: 10px;
-	background-color: transparent;
-	color: white;
-  }
-
-
-	
-
 }
 
 
 @media only screen and (max-width: 767px){
 
 
+
+	#tt-header {
+		position: absolute;
+		top: 0;
+		left:0%;
+		width: 100%;
+		color: #fff;
+		z-index: 999;
+		pointer-events: none;
+		background: rgba(255, 255, 255, 0.07);
+		border-radius: 0px 0 25px 25px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(2.1px);
+		-webkit-backdrop-filter: blur(2.1px);
+		visibility: hidden !important;
+	}
+	
+
+
+
 	
 	.hero_top{
-
-		padding: 2% 2%;
-		padding-top: 25%;
+		padding-top: 5%;
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: center;
+		background-image: url(../img/team/img1.jpg);
+		background-size: cover;
+ 		background-position: center; /* Optional: Center the image */
 
 	}
 
@@ -1337,6 +1007,13 @@ header {
 
 		padding: 10% 2%;
 		text-align: center;
+		background: rgba(255, 255, 255, 0.44);
+		border-radius: 16px 16px 0 0;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(6.4px);
+		-webkit-backdrop-filter: blur(6.4px);
+		border: 1px solid rgba(255, 255, 255, 0.59);
+		
 	}
 
 	.user_name{
@@ -1344,14 +1021,22 @@ header {
 		font-family: 'SF Pro Display', sans-serif !important;
 		font-weight: 800 !important;
 		text-transform: uppercase;
+		font-size: 7vw;
 
+	}
+
+	.profile-image{
+
+		justify-content: center;
+		align-self: center;
 	}
 
 	.profile-img{
 
 		width: 100%;
 		height: auto;
-		border-radius: 20px;
+		margin-top: -40%;
+		visibility: hidden;
 	}
 
 
@@ -1404,6 +1089,10 @@ header {
 
 	/* start contact option text */
 	
+	.contact-option-main-div{
+
+		display: flex;
+	}
 
 	.contact-options{
 
@@ -1432,140 +1121,13 @@ header {
 
 
 
-
-
-
-	/* footer section */
-
-
-
-	.footer-top{
-
-		width: 100%;
-		display: flex;
-		gap: 1%;
-		border-top: 1px solid #ffffff22;
-		flex-direction: column;
-	
-	}
-	
-	.div-1{
-	
-		display: flex;
-		flex-direction: column;
-		padding: 5% 4%;
-		width: 100%;
-	}
-	
-	.footer-div-head{
-	
-		color: #fff !important;
-		font-family: 'SF Pro Display', sans-serif !important;
-		font-weight: 600 !important;
-	}
-	
-	
-	.footer-div-link{
-	
-		color: #9c9c9c !important;
-		font-family: 'SF Pro Display', sans-serif !important;
-		font-weight: 200 !important;
-		margin-bottom: 4%;
-	}
-	
-	.footer-div-link:hover{
-	
-		color: #fff !important;
-		text-decoration: underline !important;
-		
-	}
-
-
-
-
-	
 /* extra added section  */
 
 
 	
   /* marque */
 
-  .marque_header{
-
-	width: 100%;
-	text-align: center;
-	margin-top: 2%;
-	opacity: 0.5;
-  }
-
-
-  .logoMarqueeSection {
-	padding: 1% 0%;
-	
-  }
-  
-  #logoMarqueeSection {
-	max-width: 1920px!important;
-	margin: 0 auto;
-  }
-  
-  .default-content-container {
-	  margin-left: auto;
-	  margin-right: auto;
-	  margin-top: 0;
-	  margin-bottom: 0;
-	  /* padding-left: 5rem;
-	  padding-right: 5rem; */
-	  padding-top: 4.5rem;
-	  padding-bottom: 4.5rem;
-	  width: 100%;
-	  min-height: 100vh;
-  }
-  
-  div.marquee>a>img {
-	height: 120px;
-  }
-  
-  .logoMarqueeSection>div>div {
-	  padding-top: 0;
-	  padding-bottom: 0;
-	  min-height: 0;
-  }
-  
-  .marquee-wrapper {
-	display:  inline-block;
-	white-space: nowrap;
-  }
-  
-  .marquee {
-	  display:  inline-block;
-	  white-space: nowrap;
-	  position: relative;
-	  transform: translate3d(0%, 0, 0);
-	  animation-name: marquee;
-	  animation-timing-function: linear;
-	  animation-iteration-count: infinite;
-  }
-  
-  .marquee a {
-	  display:  inline-block;
-	  white-space: nowrap;
-	  padding-right: 1rem;
-  }
-  
-  .marquee-wrapper:hover .marquee {
-	  animation-play-state: paused !important;
-  }
-  
-  @keyframes marquee {
-	  0% {
-		  transform: translate3d(0%, 0, 0);
-	  }
-  
-	  100% {
-		  transform: translate3d(-100%, 0, 0);
-	  }
-  }
+ 
 
 
 
